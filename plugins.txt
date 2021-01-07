@@ -20,3 +20,4 @@ workflow-aggregator:latest
 ws-cleanup:latest
 openshift-client:latest
 locale:latest
+mock-slave:latest
