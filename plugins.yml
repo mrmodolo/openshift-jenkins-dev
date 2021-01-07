@@ -1,0 +1,4 @@
+plugins:
+  - artifactId: openshift-client
+    source:
+      url: file:///tmp/
