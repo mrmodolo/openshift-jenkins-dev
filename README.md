@@ -16,12 +16,11 @@ podman run --name jenkins --rm -p 8080:8080 -p 50000:50000 \
 
 ## Configurações
 
-### Credênciais
+### Credenciais
 
-Usar a saída do comando `oc whoami -t` para configurar a credêncial do cluster
+Usar a saída do comando `oc whoami -t` para configurar a credencial do cluster
 
-Criar uma nova credêncial de usário para o GIT com o mesmo nome usado no pipeline
-
+Criar uma nova credencial de usuário para o git com o mesmo nome usado no pipeline
 
 ### OpenShift
 
@@ -31,4 +30,4 @@ Criar uma nova credêncial de usário para o GIT com o mesmo nome usado no pipel
 
 ### Slaves
 
-Criar um node como mock e atribuir o mesmo nome do pipeline
+Criar um nó do tipo "mock" e atribuir o mesmo nome do pipeline
